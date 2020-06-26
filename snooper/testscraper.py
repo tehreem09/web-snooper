@@ -54,14 +54,14 @@ class QuotesScraper(scrapy.Spider):
             yield response.follow(next_page, callback=self.parse)
 
 
-print("..............................................................................................")
-process = CrawlerProcess(settings={"FEEDS": {"item01.json": {"format": "json"}},
-                                   'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
-                                   'LOG_FILE': 'logs',
-                                   'LOG_LEVEL': 'CRITICAL'})
-process.crawl(QuotesScraper)
-# prefs(ignore=Spider)
-
-print("........ before process.start() ........")
-process.start()
+# print("..............................................................................................")
+# process = CrawlerProcess(settings={"FEEDS": {"item01.json": {"format": "json"}},
+#                                    'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
+#                                    'LOG_FILE': 'logs',
+#                                    'LOG_LEVEL': 'CRITICAL'})
+# process.crawl(QuotesScraper)
+# # prefs(ignore=Spider)
+#
+# print("........ before process.start() ........")
+# process.start()
 

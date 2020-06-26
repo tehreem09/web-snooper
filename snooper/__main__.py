@@ -32,7 +32,10 @@ if __name__ == '__main__':
 
     print("..............................................................................................")
     process = CrawlerProcess(settings={"FEEDS": {"item01.json": {"format": "json"}},
-                                       'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'})
+                                       'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
+                                       'LOG_FILE': 'logs',
+                                       'LOG_LEVEL': 'CRITICAL'
+                                       })
     process.crawl(testscraper.QuotesScraper)
 
     print("........ before process.start() ........")
