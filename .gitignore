@@ -1,6 +1,9 @@
 venv/
 .idea
 snooper/calleridapi.py
+snooper/testscraper.py
+snooper/test.py
+snooper/breached_mail_check.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
