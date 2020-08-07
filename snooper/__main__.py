@@ -1,9 +1,8 @@
 #!/usr/bin/python
 
 from scrapy.crawler import CrawlerProcess
-from . import testscraper
 import argparse
-
+from . import lifetechcrawlerpy
 
 def arg_parser():
     parser = argparse.ArgumentParser(usage="snooper [options] +0xxxxxxxxxx", description=('DESCRIPTION \n'
@@ -174,8 +173,7 @@ if __name__ == '__main__':
                                        'LOG_FILE': 'logs',
                                        'LOG_LEVEL': 'CRITICAL'
                                        })
-    process.crawl(testscraper.QuotesScraper)
-
+    process.crawl(lifetechcrawlerpy.LifetechCrawler)
     print("........ before process.start() ........")
     process.start()
     print("................end.............")
