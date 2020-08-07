@@ -1,9 +1,9 @@
 venv/
 .idea
-snooper/calleridapi.py
-snooper/testscraper.py
-snooper/test.py
-snooper/run.py
+calleridapi.py
+testscraper.py
+test.py
+run.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
