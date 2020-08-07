@@ -24,3 +24,8 @@
 #     print("hello")
 # __init__()
 # # print(__init__().__version__)
+
+# import runpy
+# runpy.run_module("snooper", alter_sys=True)
+
+# nameparser-1.0.6
