@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='web-snooper',
-    __version__="1.0.0",
+    __version__="0.0",
     packages=['web-snooper'],
     package_dir={'web-snooper': 'snooper'},
     entry_points={
