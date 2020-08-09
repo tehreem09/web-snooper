@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo apt install -y python3-pip
+chmod +x requirements.txt
 sudo pip3 install -r requirements.txt
