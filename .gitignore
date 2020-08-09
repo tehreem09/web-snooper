@@ -1,9 +1,5 @@
 venv/
 .idea
-calleridapi.py
-testscraper.py
-test.py
-run.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
