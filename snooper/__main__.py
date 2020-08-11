@@ -51,27 +51,29 @@ def live_search(numbers):
 
 def file_handler(filename):
     file = open(filename, 'r')
-    numbers_list = [line.strip('\n') + ',' for line in file.readlines()]
+    numberswithcode = [line.strip('\n') + ',' for line in file.readlines()]
+    numberswithoutcode = [line.strip('\n').strip('+92')+',' for line in file.readlines()]
     file.close()
-    return numbers_list
+    return numberswithcode, numberswithoutcode
 
 
 def main():
     arg_values = arg_parser()
     if arg_values.number:
-        numbers = list(arg_values.number)
-        if db_check(numbers):
+        numberswithcode = list(arg_values.number)
+        numberswithoutcode = list(arg_values.number.strip('+92'))
+        if db_check(numberswithcode):
             pass
         else:
-            number_basic_info(numbers)
-            live_search(numbers)
+            number_basic_info(numberswithcode)
+            live_search(numberswithoutcode)
     elif arg_values.file:
-        numbers = file_handler(arg_values.filename)
-        if db_check(numbers):
+        numberswithcode, numberswithoutcode = file_handler(arg_values.filename)
+        if db_check(numberswithcode):
             pass
         else:
-            number_basic_info(numbers)
-            live_search(numbers)
+            number_basic_info(numberswithcode)
+            live_search(numberswithoutcode)
 
 
 if __name__ == '__main__':
