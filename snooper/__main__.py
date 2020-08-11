@@ -38,13 +38,13 @@ def number_basic_info(numbers):
     ec2tos3.upload_file_to_s3bucket('', 'basic_number_info.json', 'number_basic_info.json')
 
 
-def live_search():
+def live_search(numbers):
     process = CrawlerProcess(settings={"FEEDS": {"raw_data.json": {"format": "json"}},
                                        'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)',
                                        'LOG_FILE': 'logs',
                                        'LOG_LEVEL': 'CRITICAL'
                                        })
-    process.crawl(lifetechcrawlerpy.LifetechCrawler)
+    process.crawl(lifetechcrawlerpy.LifetechCrawler, numbers)
     process.start()
     ec2tos3.upload_file_to_s3bucket('', 'lifetech_rawdata.json', 'lifetechdata.json')
 
@@ -64,14 +64,14 @@ def main():
             pass
         else:
             number_basic_info(numbers)
-            live_search()
+            live_search(numbers)
     elif arg_values.file:
         numbers = file_handler(arg_values.filename)
         if db_check(numbers):
             pass
         else:
             number_basic_info(numbers)
-            live_search()
+            live_search(numbers)
 
 
 if __name__ == '__main__':
