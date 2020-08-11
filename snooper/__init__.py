@@ -29,3 +29,18 @@
 # runpy.run_module("snooper", alter_sys=True)
 
 # nameparser-1.0.6
+
+# hooks:
+#   BeforeInstall:
+#     - location: scripts/install_dependencies.sh
+#       timeout: 300
+#       runas: root
+#   ApplicationStart:
+#     - location: scripts/start_server.sh
+#     - location: scripts/create_test_db.sh
+#       timeout: 300
+#       runas: root
+#   ApplicationStop:
+#     - location: scripts/stop_server.sh
+#       timeout: 300
+#       runas: root

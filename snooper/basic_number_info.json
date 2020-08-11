@@ -1,0 +1,40 @@
+{
+    "number": [
+        "+923362314059",
+        "+923362314059",
+        "+61449765241",
+        "+12017237150"
+    ],
+    "country": [
+        "Pakistan",
+        "Pakistan",
+        "",
+        "New Jersey"
+    ],
+    "time_zone": [
+        [
+            "Asia/Karachi"
+        ],
+        [
+            "Asia/Karachi"
+        ],
+        [
+            "Australia/Adelaide",
+            "Australia/Eucla",
+            "Australia/Lord_Howe",
+            "Australia/Perth",
+            "Australia/Sydney",
+            "Indian/Christmas",
+            "Indian/Cocos"
+        ],
+        [
+            "America/New_York"
+        ]
+    ],
+    "carrier": [
+        "Ufone",
+        "Ufone",
+        "Vodafone",
+        ""
+    ]
+}
