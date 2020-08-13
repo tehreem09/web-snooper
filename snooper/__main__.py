@@ -68,7 +68,7 @@ def main():
         else:
             number_basic_info(numberswithcode)
             live_search(numberswithoutcode)
-    elif arg_values.file:
+    elif arg_values.filename:
         numberswithcode, numberswithoutcode = file_handler(arg_values.filename)
         if db_check(numberswithcode):
             pass
