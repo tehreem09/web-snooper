@@ -61,7 +61,7 @@ def main():
     arg_values = arg_parser()
     if arg_values.number:
         numberswithcode = [str(arg_values.number)]
-        numberswithoutcode = [str(arg_values.number.strip('+92'))]
+        numberswithoutcode = [str(arg_values.number).strip('+92')]
         if db_check(numberswithcode):
             pass
         else:
