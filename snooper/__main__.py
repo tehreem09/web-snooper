@@ -60,8 +60,8 @@ def file_handler(filename):
 def main():
     arg_values = arg_parser()
     if arg_values.number:
-        numberswithcode = [str(arg_values.number)]
-        numberswithoutcode = [str(arg_values.number)[3:]]
+        numberswithcode = ['+'+str(arg_values.number)]
+        numberswithoutcode = [str(arg_values.number)[2:]]
         print(numberswithcode, numberswithoutcode)
         if db_check(numberswithcode):
             pass
