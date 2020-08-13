@@ -62,6 +62,7 @@ def main():
     if arg_values.number:
         numberswithcode = [str(arg_values.number)]
         numberswithoutcode = [str(arg_values.number)[3:]]
+        print(numberswithcode, numberswithoutcode)
         if db_check(numberswithcode):
             pass
         else:
