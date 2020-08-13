@@ -3,6 +3,14 @@ import scrapy
 
 class Lifetech_Crawler(scrapy.Spider):
     name = "Lifetech"
+    custom_settings = {
+            'FEED_URI': 'lifetech_rawdata.json',
+            'FEED_FORMAT': 'json',
+            'FEED_EXPORTERS': {
+                'json': 'scrapy.exporters.JsonItemExporter',
+            },
+            'FEED_EXPORT_ENCODING': 'utf-8',
+        }
 
     def __init__(self, numbers=[]):
         self.numbers = numbers
