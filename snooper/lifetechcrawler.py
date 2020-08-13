@@ -31,7 +31,7 @@ class Lifetech_Crawler(scrapy.Spider):
             if not title:
                 print("failed")
             else:
-                self.success += 1
+                # self.success += 1
                 yield {'number_data': title}
 
 

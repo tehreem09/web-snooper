@@ -51,9 +51,9 @@ def live_search(numbers):
 
 def file_handler(filename):
     file = open(filename.name, 'r')
-    numberswithcode = [line.strip('\n') + ',' for line in file.readlines()]
-    numberswithoutcode = [line.strip('\n').strip('+92')+',' for line in file.readlines()]
-    print(numberswithoutcode)
+    numberswithcode = [line.strip('\n') for line in file.readlines()]
+    file = open(filename.name, 'r')
+    numberswithoutcode = [line.strip('\n')[3:] for line in file.readlines()]
     file.close()
     return numberswithcode, numberswithoutcode
 
