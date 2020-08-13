@@ -50,7 +50,7 @@ def live_search(numbers):
 
 
 def file_handler(filename):
-    file = open(filename, 'r')
+    file = open(str(filename), 'r')
     numberswithcode = [line.strip('\n') + ',' for line in file.readlines()]
     numberswithoutcode = [line.strip('\n').strip('+92')+',' for line in file.readlines()]
     file.close()
