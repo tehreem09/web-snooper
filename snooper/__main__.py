@@ -4,7 +4,7 @@ import json
 import argparse
 from scrapy.crawler import CrawlerProcess
 from . import numberhandler
-from . import lifetechcrawlerpy
+from . import lifetechcrawler
 from . import ec2tos3
 
 
@@ -44,7 +44,7 @@ def live_search(numbers):
                                        'LOG_FILE': 'logs',
                                        'LOG_LEVEL': 'CRITICAL'
                                        })
-    process.crawl(lifetechcrawlerpy.LifetechCrawler, numbers)
+    process.crawl(lifetechcrawler.Lifetech_Crawler, numbers)
     process.start()
     ec2tos3.upload_file_to_s3bucket('', 'lifetech_rawdata.json', 'lifetechdata.json')
 
@@ -60,8 +60,8 @@ def file_handler(filename):
 def main():
     arg_values = arg_parser()
     if arg_values.number:
-        numberswithcode = list(arg_values.number)
-        numberswithoutcode = list(arg_values.number.strip('+92'))
+        numberswithcode = [str(arg_values.number)]
+        numberswithoutcode = [str(arg_values.number.strip('+92'))]
         if db_check(numberswithcode):
             pass
         else:
