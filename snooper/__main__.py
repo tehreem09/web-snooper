@@ -15,7 +15,7 @@ def arg_parser():
                                                                                           'finding phone number and/or '
                                                                                           'email address owner\'s PII '
                                                                                           'information. '))
-    parser.add_argument("-e", "--email", dest="email", type=str, help='email on which you want to perform snooping')
+    # parser.add_argument("-e", "--email", dest="email", type=str, help='email on which you want to perform snooping')
     parser.add_argument("-n", "--number", dest="number", type=int, help='name on which you want to perform snooping')
     parser.add_argument('-f', '--file', dest='filename', type=argparse.FileType('r'), help='name or path to file of '
                                                                                            'simple text file having '
@@ -32,7 +32,7 @@ def number_basic_info(numbers):
     countries = [None] * x
     obj = numberhandler.NumberRecon(numbers=numbers, countries=countries)
     number_basic_data_dict = obj.get_number_origin_data()
-    with open('basic_number_info.json', 'w') as fp:
+    with open('basic_number_info.json', 'a') as fp:
         json.dump(number_basic_data_dict, fp, indent=4)
     fp.close()
     ec2tos3.upload_file_to_s3bucket('', 'basic_number_info.json', 'number_basic_info.json')
