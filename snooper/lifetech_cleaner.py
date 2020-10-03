@@ -14,7 +14,7 @@ with open('C:/Users/zunai/Downloads/lifetechdata (1).json') as lifetech_raw_file
     data = json.load(lifetech_raw_file)
     for dictionary in data:
         mainlist.append(dictionary.get('number_data'))
-
+    listt=[]
     for eachlist in mainlist:
         data = {}
         nameflag = False
@@ -37,6 +37,9 @@ with open('C:/Users/zunai/Downloads/lifetechdata (1).json') as lifetech_raw_file
                     if re.match("[A-Z-][A-Za-z-/0-9#.,:]*[ ]+", value):
                         data['address'] = value
                         address = True
-        json.dump(data, newfile)
-        newfile.write('\n')
+        listt.append(data)
+
+
+json.dump(listt, newfile)
+
 
