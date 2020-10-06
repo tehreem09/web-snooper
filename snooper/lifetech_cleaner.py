@@ -1,20 +1,20 @@
 import json
 import re
 
-newfile=open('E:/adeena/semester 7/fyp/cleandatalt.json', 'w')
+newfile = open('lifetech_cleandata.json', 'w')
 
-mainlist=[]
-cities=['KARACHI', 'Karachi', 'LAHORE', 'Faisalabad','SIALKOT,Punjab','Gujranwala', 'Gilgit', 'KARACHI,Sindh', 'CHITRAL',
-        'CHICHA_WATNI,Punjab', 'GWADER,Baluchistan', 'MARDAN,Khyber Pakhtunkhwa', 'CHAKWAL', 'LHR', 'ISLAMABAD,Punjab',
-        'PAKPATTAN,Punjab']
+mainlist = []
+cities = ['KARACHI', 'Karachi', 'LAHORE', 'Faisalabad', 'SIALKOT,Punjab', 'Gujranwala', 'Gilgit', 'KARACHI,Sindh',
+          'CHITRAL',
+          'CHICHA_WATNI,Punjab', 'GWADER,Baluchistan', 'MARDAN,Khyber Pakhtunkhwa', 'CHAKWAL', 'LHR',
+          'ISLAMABAD,Punjab',
+          'PAKPATTAN,Punjab']
 
-
-
-with open('C:/Users/zunai/Downloads/lifetechdata (1).json') as lifetech_raw_file:
+with open('lifetechdata.json') as lifetech_raw_file:
     data = json.load(lifetech_raw_file)
     for dictionary in data:
         mainlist.append(dictionary.get('number_data'))
-    listt=[]
+    listt = []
     for eachlist in mainlist:
         data = {}
         nameflag = False
@@ -39,7 +39,4 @@ with open('C:/Users/zunai/Downloads/lifetechdata (1).json') as lifetech_raw_file
                         address = True
         listt.append(data)
 
-
-json.dump(listt, newfile)
-
-
+json.dump(listt, newfile, indent=4)

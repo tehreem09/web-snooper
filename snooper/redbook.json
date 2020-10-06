@@ -1,0 +1,802 @@
+[
+  {
+    "NAME": "NADIA TANVIR",
+    "PARENTAGE": "TANVIR AHMAD",
+    "ADDRESS": "771-R, MODEL TOWN, LAHORE",
+    "CNIC": "3520289564816",
+    "PHONE NUM": "0323-4347897",
+    "FIR no.": "328/15, 454/15, 505/15"
+  },
+  {
+    "NAME": "TAHWAR ABBAS",
+    "PARENTAGE": "MUHAMMAD ABDULLAH",
+    "ADDRESS": "HOUSE NO.273, MOHALLAH KHAIBAR BLOCK, ALLAMA IQBAL TOWN, LAHORE.\nMANAGER: GLOBAL ROUTE TRAVELS & TOURS, D-3 2ND FLOOR, 55-SHADMAN MARKET NEAR JS BANK, LAHORE",
+    "CNIC": "3520256520973",
+    "PHONE NUM": "0320-4638072,0320-4162640",
+    "FIR no.": "661/15, 685/15, 665/15, 667/15, 669/15, 676/15, 668/15, 670/15,\n689/15, 671/15, 681/15"
+  },
+  {
+    "NAME": "AZHAR AHMAD",
+    "PARENTAGE": "NISAR AHMAD",
+    "ADDRESS": "H.NO. 52, STREET NO.5, FARID KOT SARGODHA",
+    "CNIC": "3840330561049",
+    "PHONE NUM": "",
+    "FIR no.": "448/15, 837/15, 346/14"
+  },
+  {
+    "NAME": "IMRAN AFZAL",
+    "PARENTAGE": "MUHAMMAD AFZAL",
+    "ADDRESS": "OWNER KARAWAN E MADINA INTERNATIONAL TOUR OPERATOR, RAILWAY ROAD, NEAR HBL BRANCH SHEIKHUPURA.",
+    "CNIC": "3310252930057",
+    "PHONE NUM": "",
+    "FIR no.": "610/03, 611/03, 612/03"
+  },
+  {
+    "NAME": "MUHAMMAD ASIF",
+    "PARENTAGE": "MUHAMMAD ISHAQ",
+    "ADDRESS": "HOUSE NO.16, STREET NO.63, MOHALLAH FAREED NAGAR, SHALIMAR TOWN, LAHORE",
+    "CNIC": "3520179788195",
+    "PHONE NUM": "",
+    "FIR no.": "592/16, 748/16 1025/16, 1030/16"
+  },
+  {
+    "NAME": "ABDUL LATIF SOLANGI",
+    "PARENTAGE": "NABI BAKSH",
+    "ADDRESS": "1.   PASTWANA    SHAH    COLONY    TAPAL GHAR DISTRICT SUKHAR PUNJ MEHAL ROAD,     HOUSE     NO.16     MOHALLAH MOZANG LAHORE.\n2.   FRIENDSHIP   INTERNATIONAL   FLOOR NO.03,    ROOM    NO.118,    CHAUDHARY CENTRE,  SODIWAAL,  MULTAN  ROAD, LAHORE",
+    "CNIC": "4200004544293",
+    "PHONE NUM": "0301-4399393",
+    "FIR no.": "116/16, 501/16, 512/16, 596/16,"
+  },
+  {
+    "NAME": "AZAD KHAN",
+    "PARENTAGE": "SHER MUHAMMAD",
+    "ADDRESS": "HOUSE NO.187, MOHALLAH BLOCK NO.G-5 WAPDA TOWN, LAHORE.",
+    "CNIC": "3530188087687",
+    "PHONE NUM": "0301-4399393",
+    "FIR no.": "592/16, 748/16, 886/16, 1025/16, 1030/16, 1054/16, 1055/16, 1056/16, 1057/16, 1059/16, 25/17, 98/17, 100/17, 107/17, 108/17, 109/17, 112/17, 113/17, 114/17, 148/17"
+  },
+  {
+    "NAME": "Shakeel Ahmed",
+    "PARENTAGE": "Muhammad Yaar",
+    "ADDRESS": "House No.81, MohallahB-2, Johar Town, Lahore",
+    "CNIC": "3520296045337",
+    "PHONE NUM": "",
+    "FIR no.": "880/16, 881/16,882/16, 883/16"
+  },
+  {
+    "NAME": "Sajid Aziz",
+    "PARENTAGE": "Abdul Aziz",
+    "ADDRESS": "Chak No.211 Gb, P/O Khas, Tehsil Samundari, District Faisalabad.",
+    "CNIC": "3310584413937",
+    "PHONE NUM": "0304-9132322\n0336-8839204",
+    "FIR no.": "787/16, 788/16,789/16, 792/16"
+  },
+  {
+    "NAME": "Majid Ali Abbasi",
+    "PARENTAGE": "Syed Sajid Ali Abbasi",
+    "ADDRESS": "115-B, Ali View Garden, Badian Road, Lahore. Permanent Address\nHouse No.52, Street No.2, Shami Road, Peshawar.",
+    "CNIC": "1730116830545",
+    "PHONE NUM": "",
+    "FIR no.": "782/17,900/17,1039/17,1041/17,1042/17"
+  },
+  {
+    "NAME": "Muhammad Akbar",
+    "PARENTAGE": "Mukhtar Ali",
+    "ADDRESS": " Malik Town Aslam House, House No.160, Street No.09, Peoples Colony Faisalabad",
+    "CNIC": "3310250094661",
+    "PHONE NUM": "NA",
+    "FIR no.": "858/17, 863/17\n865/17, 866/17\n867/17, 868/17"
+  },
+  {
+    "NAME": "Ijaz Hussain Hashmi",
+    "PARENTAGE": "Mian Ameer Sultan",
+    "ADDRESS": "Harisa Sheikh Lahore Road, Tehsil & District Chinniot",
+    "CNIC": "3320164727151",
+    "PHONE NUM": "NA",
+    "FIR no.": "853/17, 858/17\n863/17, 865/17\n866/17, 867/17\n868/17"
+  },
+  {
+    "NAME": "Faisal Riaz",
+    "PARENTAGE": "Riaz Ahmad",
+    "ADDRESS": " Permanent Address:\nHouse no.7a, Al-Noorani Street, Al-Fatah Road, Bhatti Park Ichra Lahore\nPresent Address:\nHosue no.7, Street No.119 Lakhpat, Mohallah Zaildar Road, Ichra, Lahore",
+    "CNIC": "3520222692655",
+    "PHONE NUM": "NA",
+    "FIR no.": "727/14\n739/14\n758/14"
+  },
+  {
+    "NAME": "Amir Javed",
+    "PARENTAGE": "Muhammad Saddiq",
+    "ADDRESS": " D-Street House No.03, Block-Z, Mohallah Tariq Bin Ziad\nColony, Sahiwal.",
+    "CNIC": "3650213637281",
+    "PHONE NUM": "NA",
+    "FIR no.": "145/17,  146/17\n727/17,  727/17\n640/15,  983/15"
+  },
+  {
+    "NAME": "NASIR ALI",
+    "PARENTAGE": "MUHAMMAD ASHRAF",
+    "ADDRESS": "90/JB TEHSIL GOJRA DISTRICT, TOBA TEKSINGH",
+    "CNIC": "3630203150879",
+    "PHONE NUM": "0345-4504032,  0300-6522928, 0323-6553301",
+    "FIR no.": "171/13, 172/13, 173/13, 178/13"
+  },
+  {
+    "NAME": "MUHAMMAD AFZAL SADIQ",
+    "PARENTAGE": "MUHAMMAD SADIQ",
+    "ADDRESS": "HOUSE NO. 113 P NEAR KHIZRA MASJID PEOPLES\nCOLONY NO.1 FAISALABAD",
+    "CNIC": "3310051708049",
+    "PHONE NUM": "0300-4788336",
+    "FIR no.": "36/16, 138/16, 141/16, 142/16, 143/16,  225/16"
+  },
+  {
+    "NAME": "ZULFIQAR ALI",
+    "PARENTAGE": "SARDAR MUHAMMAD",
+    "ADDRESS": "CHAK NO.129 SHUMALI, SILANWALI SARGODHA",
+    "CNIC": "3840536620347",
+    "PHONE NUM": "",
+    "FIR no.": "414/17, 415/17"
+  },
+  {
+    "NAME": "MAZHAR ABBAS",
+    "PARENTAGE": "GHULAM MUHAMMAD",
+    "ADDRESS": "HOUSE NO.85/15 MOHBAGH JHANG",
+    "CNIC": "3320289043275",
+    "PHONE NUM": "",
+    "FIR no.": "293/16. 294/16"
+  },
+  {
+    "NAME": "KAZIMMUSHTAQ",
+    "PARENTAGE": "MUSHTAQ AHMED",
+    "ADDRESS": "HOUSE NO. P-181 STREET # 15 AL MSAOOM TOWN\nFAISALABAD",
+    "CNIC": "3310089504799",
+    "PHONE NUM": "",
+    "FIR no.": "375/17, 376/17, 377/17, 378/17"
+  },
+  {
+    "NAME": "SUBAH SAADIQ",
+    "PARENTAGE": "MUHAMMAD BASHIR",
+    "ADDRESS": "COLLEGE ROAD, DASKA, DISTT. SIALKOT",
+    "CNIC": "3460180155295",
+    "PHONE NUM": "",
+    "FIR no.": "463/13, 464/13, 498/13, 500/13"
+  },
+  {
+    "NAME": "ZAFAR IQBAL",
+    "PARENTAGE": "SAI MUHAMMAD",
+    "ADDRESS": "BOHT, DISTT. MANDI BAHAUDDIN",
+    "CNIC": "3440298281227",
+    "PHONE NUM": "NOT AVAILABLE",
+    "FIR no.": "496/11, 547/11, 177/12, 236/12, 26/13."
+  },
+  {
+    "NAME": "ADNAN AKBAR",
+    "PARENTAGE": "MUHAMMAD AKBAR",
+    "ADDRESS": "HOUSE   NO.   4/463,   KUCHA   BANDRYAN,   MOHALLAH KHAWAJGAN, P/S B DIVISION, GUJRAT",
+    "CNIC": "3420103033741",
+    "PHONE NUM": "",
+    "FIR no.": "06/13, 07/13"
+  },
+  {
+    "NAME": "MUZAFFAR HUSSAIN @ CHANNA",
+    "PARENTAGE": "FATHER NAME: GHULAM SABIR\nMOTHER NAME:KHALIDA PARVEEN",
+    "ADDRESS": "MOHALLAH  KUMHARAN,  DASKA  CITY,  TEHSIL  DASKA, DISTT. SIALKOT",
+    "CNIC": "3460192685341",
+    "PHONE NUM": "0300-3333149",
+    "FIR no.": "463/13, 464/13, 500/13"
+  },
+  {
+    "NAME": "MALIK FAISAL RASOOL AWAN",
+    "PARENTAGE": "MALIK GHULAM RASOOL AWAN",
+    "ADDRESS": "KALIAM     AWAN,     TEHSIL     GUJAR     KHAN,     DISTT. RAWALPINDI",
+    "CNIC": "3740166794195",
+    "PHONE NUM": "",
+    "FIR no.": "758/07, 759/07, 804/07."
+  },
+  {
+    "NAME": "ZAHID MEHMOOD",
+    "PARENTAGE": "MUHAMMAD SHER",
+    "ADDRESS": "NEW  LALA  ZAR  COLONY,  RAWALPINDI  CITY,  TEHSIL AND DISTT. RAWALPINDI",
+    "CNIC": "3740503709371",
+    "PHONE NUM": "",
+    "FIR no.": "929/07, 933/07, 934/07"
+  },
+  {
+    "NAME": "RASHID HASNAIN RAZA @ GOGI SHAH",
+    "PARENTAGE": "FATHER NAME: SYED AKHTAR  RAZA JAFFERY\nMOTHER NAME: SYEDA PARVEEN AKHTER",
+    "ADDRESS": "VILLAGE SAPRAN SYEDAN PO CHHOKAR KALAN NEAR LALA MUSA, TEHSIL KHARIAN DISTRICT GUJRAT",
+    "CNIC": "3420296168761",
+    "PHONE NUM": "",
+    "FIR no.": "115/06"
+  },
+  {
+    "NAME": "RAJA MUHAMMAD FAZIL",
+    "PARENTAGE": "HAJI RAZAQ AHMED",
+    "ADDRESS": "VILLAGE   KOT   JAIMAL,   TEHSIL   BARNALA,   DISTRICT BHIMBER, AJK",
+    "CNIC": "",
+    "PHONE NUM": "0304-4540207",
+    "FIR no.": "427/05"
+  },
+  {
+    "NAME": "ALI RAZA RANA",
+    "PARENTAGE": "MUHAMMAD SHAFI",
+    "ADDRESS": "JESAR WALA TEH DASKA DISTT SIALKOT.",
+    "CNIC": "3460156274065",
+    "PHONE NUM": "",
+    "FIR no.": "579/07, 578/09."
+  },
+  {
+    "NAME": "NADEEM BUTT",
+    "PARENTAGE": "FATHER NAME: MUHAMMAD YOUSAF\nMOTHER NAME: SUGHRAN BIBI",
+    "ADDRESS": "MOHALLAH  GHAZI  PURA  KUNJAH  TEHSIL  &  DISTRICT GUJRAT",
+    "CNIC": "3420157270049",
+    "PHONE NUM": "",
+    "FIR no.": "559/09, 623/09, 627/09"
+  },
+  {
+    "NAME": "MATLOOB HUSSAIN",
+    "PARENTAGE": "MUHAMMAD SAEED",
+    "ADDRESS": "CHIAN WALI DISTRICT GUJRANWALA",
+    "CNIC": "3410175270957",
+    "PHONE NUM": "",
+    "FIR no.": "719/10. 85/10."
+  },
+  {
+    "NAME": "TAJMAL HUSSAIN CASTE GUJAR",
+    "PARENTAGE": "RAHEM ALI",
+    "ADDRESS": "MOOSA KAMALA TEHSIL AND DISTRICT GUJRAT",
+    "CNIC": "3420199082671",
+    "PHONE NUM": "",
+    "FIR no.": "136/10"
+  },
+  {
+    "NAME": "AFZAL",
+    "PARENTAGE": "SAI MUHAMMAD",
+    "ADDRESS": "LANGY KHOJAY GUJRAT",
+    "CNIC": "",
+    "PHONE NUM": "",
+    "FIR no.": "637/11, 138/11"
+  },
+  {
+    "NAME": "GULZAR AHMED",
+    "PARENTAGE": "MUSHTAQ AHMED",
+    "ADDRESS": "BADOKI GOSAIYAN, PO KHAS, TEHSIL WAZIRABAD DISTRICT GUJRANWALA.",
+    "CNIC": "3410422534217",
+    "PHONE NUM": "",
+    "FIR no.": "0306-6638273"
+  },
+  {
+    "NAME": "HAROON MUNIR ALIAS HAROON RANJHA",
+    "PARENTAGE": "MUNIR AHMAD",
+    "ADDRESS": "MOHALLAH MUGHAL PURA PHALIA DISTRICT MANDI\nBAHAUDDIN",
+    "CNIC": "3440370072107",
+    "PHONE NUM": "",
+    "FIR no.": "145/16,159/16,181/16,306/16,4/17,79/17,133/17,308/17"
+  },
+  {
+    "NAME": "RAJA AJAB GULL ALIAS RAJA HAYMOUN",
+    "PARENTAGE": "SULTAN MEHMOOD ALIAS RAJA ANSAR",
+    "ADDRESS": "BUDHO CHAK TEHSIL KHARIAN DISTRICT GUJRAT",
+    "CNIC": "3420245503233",
+    "PHONE NUM": "",
+    "FIR no.": "158/16, 27/17, 99/17, 172/17, 247/17, 365/17"
+  },
+  {
+    "NAME": "MUKHTIAR AHMED",
+    "PARENTAGE": "MUHAMMAD YUNIS",
+    "ADDRESS": "MOHALLAH    MOHAMMAD    PURA,    KHANPUR    DISTT. RAHIM YAR KHAN",
+    "CNIC": "3130156384029",
+    "PHONE NUM": "",
+    "FIR no.": "187/14, 188/14, 205/14, 206/14, 230/14, 231/14, 232/14,233/14,"
+  },
+  {
+    "NAME": "MUHAMMAD YASIN",
+    "PARENTAGE": "ABDUL MAJEED",
+    "ADDRESS": "AL-HASSAN LAJ HOUSE NO. 63/A GARDEN TOWN MULTAN CANTT.",
+    "CNIC": "3620105584727",
+    "PHONE NUM": "0345-4039003",
+    "FIR no.": "220/14, 157/15, 372/15"
+  },
+  {
+    "NAME": "MUHAMMAD YOUSAF",
+    "PARENTAGE": "ABDUL HAQ",
+    "ADDRESS": "MOHALLAH QASIM WALA, MUZAFARGARH",
+    "CNIC": "3240339175351",
+    "PHONE NUM": "0346-7060259",
+    "FIR no.": "117/14, 197/14, 196/14"
+  },
+  {
+    "NAME": "RASHID MASIH",
+    "PARENTAGE": "IQBAL MASIH",
+    "ADDRESS": "CHAK NO. 48/12-L , TEHSIL CHICHAWATNI DISTRICT SAHIWAL",
+    "CNIC": "3650184327515",
+    "PHONE NUM": "0303-39027789",
+    "FIR no.": "77/16 .78/16"
+  },
+  {
+    "NAME": "RAJA FARHAN ALI",
+    "PARENTAGE": "FATHER NAME:  RAJA SHAFAN ALI\nMOTHER NAME:  KHUSHIPARVEEN)",
+    "ADDRESS": "HOUSE   NO.   NE-4382,   ST   #   MOHALLAH   NEW   SULTAN PURA KURRI ROAD RAWALPINDI",
+    "CNIC": "3740565859119",
+    "PHONE NUM": "0331-5694502",
+    "FIR no.": "180/2013 and 217/2013"
+  },
+  {
+    "NAME": "IMRAN AZIZ",
+    "PARENTAGE": "MUHAMMAD AZIZ",
+    "ADDRESS": "i).   HOUSE NO. E-1-607 JOHAR TOWN LAHORE\nii).  SUITE   NO.   6,   UNIFIEX   APARTMENT   DIPLOMATIC ENCLAVE ISLAMABAD\niii). HOUSE NO. 927, MOHALLAKHIRADIANDRON AKBARI MANDI LAHORE.",
+    "CNIC": "3520098325239",
+    "PHONE NUM": "0308-4886644",
+    "FIR no.": "136/13"
+  },
+  {
+    "NAME": "MUSHTAQ AHMAD",
+    "PARENTAGE": "MUHAMMAD FAZAL",
+    "ADDRESS": "GHUMTY,    P.S    DENGA    TEHSIL    KHARIAN    DISTRICT GUJRAT",
+    "CNIC": "3740510414751",
+    "PHONE NUM": "0333-28419755",
+    "FIR no.": "239, 240/13"
+  },
+  {
+    "NAME": "TOQUEER HAYAT",
+    "PARENTAGE": "TARIQ HAYAT",
+    "ADDRESS": "ST.# 3 H # NO. 486 MOHALLA WARIS KHAN RAWALPINDI",
+    "CNIC": "3740574590771",
+    "PHONE NUM": "",
+    "FIR no.": "26/15,311/14,07/15"
+  },
+  {
+    "NAME": "ADNAN KHAN",
+    "PARENTAGE": "TARIQ HAYAT",
+    "ADDRESS": "ST.# 3 H # N 486 MOHALLA WARIS KHAN RAWALPINDI",
+    "CNIC": "3740562748611",
+    "PHONE NUM": "",
+    "FIR no.": "26/15,311/14,07/15"
+  },
+  {
+    "NAME": "MIAN NADIR SHER",
+    "PARENTAGE": "MIAN SAFEER UD DIN",
+    "ADDRESS": "HOUSE NO. 374/375 SALIM AKHTAR ROAD, MELSI DIST. VEHARI. OWNER TRAVEL VALLY TOUR OPERATORS KASHMIR PLAZA BLUE AREA ISLAMABAD.",
+    "CNIC": "6110195835509",
+    "PHONE NUM": "0321-8480986",
+    "FIR no.": "188/2017 , 275/2017 , 279/2017 , 347/2017 , 398/17"
+  },
+  {
+    "NAME": "FARYAL KHALID ABBASI",
+    "PARENTAGE": "D/O KHALID MONAM ABBASI",
+    "ADDRESS": "HOUSE NO. 95-G, MODEL TOWN, LAHORE",
+    "CNIC": "3520224875892",
+    "PHONE NUM": "0321-8577233",
+    "FIR no.": "FIR NO 32/2017 , 30/2017 , 306/2017 , 307/2017 , 269/2017"
+  },
+  {
+    "NAME": "SH. ABDUL SATTAR",
+    "PARENTAGE": "S/O ABDUL AZIZ",
+    "ADDRESS": "HOUSE NO. 1062, STREET NO. 43, SECTOR G-11/2 ISLAMABAD. PERMANENT ADDRESS: HOUSE NO. MCA-284, MOHALLA\nSHER ALI KHAN, D.I.KHAN.",
+    "CNIC": "6110119729387",
+    "PHONE NUM": "",
+    "FIR no.": "42/17 , 121/17 , 42/17 , 121/17 , 207/17 432/17 , 380/17"
+  },
+  {
+    "NAME": "ZEESHAN QASIM",
+    "PARENTAGE": "MUHAMMAD QASIM",
+    "ADDRESS": "H3 554-FG, MOHALLAH ARAY BAZAR LARNAS LINE, RAWALPINDI\nH# 01, MOHALLAH KASHMIR ROAD, RAWALPINDI",
+    "CNIC": "3740503209507",
+    "PHONE NUM": "",
+    "FIR no.": "77/16, 263/16, 264/16, 288/17, 467/17"
+  },
+  {
+    "NAME": "AQEEL AHMED ABBASI",
+    "PARENTAGE": "MUHAMMAD SADDIQUE  ABBASI",
+    "ADDRESS": "i).   H   NO.   132   KV   GRID   STATION   DAHIMAL   ROAD RAWALPINDI,     DISTRICT     RAWALPINDI,     PUNJAB PAKISTAN\nii).  QUID-E-AZAM         COLONY         DHAMYAL         CAMP RAWALPINDI\niii). VILLAGE     GOTHA     P.O     KHAS     MUZAFFARABAD, DISTRICT MUZAFFARABAD, AJK",
+    "CNIC": "3740519037959",
+    "PHONE NUM": "",
+    "FIR no.": "570/09"
+  },
+  {
+    "NAME": "SherAzam",
+    "PARENTAGE": "Zaheer Ahmed Khan",
+    "ADDRESS": "",
+    "CNIC": "3310093492429",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Muhammad Parvez (Alias Parvez)",
+    "PARENTAGE": "Muhammad Saddique",
+    "ADDRESS": "",
+    "CNIC": "3420155090105",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Altaf Hussain",
+    "PARENTAGE": "Abdur Rehman",
+    "ADDRESS": "",
+    "CNIC": "8130146604687",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Waqar Ahmed",
+    "PARENTAGE": "Taj Muhammad Khan",
+    "ADDRESS": "",
+    "CNIC": "3710404853261",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Muhammad Iqbal",
+    "PARENTAGE": "Farooz Din",
+    "ADDRESS": "",
+    "CNIC": "3740615535003",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Asadullah Khan",
+    "PARENTAGE": "Sharafatullah Khan",
+    "ADDRESS": "",
+    "CNIC": "3740513688657",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Faisal Amin",
+    "PARENTAGE": "Muhammad Amin Bhatti",
+    "ADDRESS": "",
+    "CNIC": "6110192710701",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Muhammad Hayat",
+    "PARENTAGE": "Ghulam Ali",
+    "ADDRESS": "",
+    "CNIC": "3440352393165",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Waqas Ali Shah S",
+    "PARENTAGE": "Syed Javed Hussian Shah",
+    "ADDRESS": "",
+    "CNIC": "1350159703275",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Mushtaq Ahmed",
+    "PARENTAGE": "Gulzar Ahmed cast Malik",
+    "ADDRESS": "",
+    "CNIC": "3710391836243",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Nusrat Shah",
+    "PARENTAGE": "Iqbal Shah",
+    "ADDRESS": "",
+    "CNIC": "1730189700515",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Noroz",
+    "PARENTAGE": "Feroz",
+    "ADDRESS": "",
+    "CNIC": "1730112957931",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Muhammad Afzal",
+    "PARENTAGE": "Muhammad Pervez",
+    "ADDRESS": "",
+    "CNIC": "1560271264793",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Haji Muhammad Akram",
+    "PARENTAGE": "Meraj Din lobanah",
+    "ADDRESS": "",
+    "CNIC": "3660223700409",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Naseem Ahmad Khan",
+    "PARENTAGE": "Naboo Khan",
+    "ADDRESS": "",
+    "CNIC": "4210109711033",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Jahangir Alias  @ Jhangi",
+    "PARENTAGE": "Jaffar Hussain",
+    "ADDRESS": "",
+    "CNIC": "3420333452353",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Atta Subhani",
+    "PARENTAGE": "Manzoor Ahmad",
+    "ADDRESS": "",
+    "CNIC": "3650135499543",
+    "PHONE NUM": "",
+    "FIR no.": ""
+  },
+  {
+    "NAME": "Mumtaz Hussain",
+    "PARENTAGE": "Noor Hussain",
+    "ADDRESS": " Po Khas, Bakhari Kalan P/S Same Tehsil & District Chakwal",
+    "CNIC": "3720116942517",
+    "PHONE NUM": "",
+    "FIR no.": "37/13"
+  },
+  {
+    "NAME": "Masood-Ul-Hassan",
+    "PARENTAGE": "Muhammad Yaqoob",
+    "ADDRESS": "Afzal Pura Mirpur Khas",
+    "CNIC": "3740130371799",
+    "PHONE NUM": "",
+    "FIR no.": "180/11\n04/13\n122/13"
+  },
+  {
+    "NAME": "Bilal Ahmad",
+    "PARENTAGE": "Chaudhry Ghulam",
+    "ADDRESS": "Ahmad r/o Saowal Tehsil Pinddadan Khan District Jhelum",
+    "CNIC": "3730204779061",
+    "PHONE NUM": "",
+    "FIR no.": "230/11"
+  },
+  {
+    "NAME": "Syed Nadeem Ahmed Ali",
+    "PARENTAGE": "Syed Ahmed Ali",
+    "ADDRESS": " House No. 355b, Federal B Area Block No. 13,District Maleer, Karachi",
+    "CNIC": "4210117310183",
+    "PHONE NUM": "",
+    "FIR no.": "112/12"
+  },
+  {
+    "NAME": "Amjad Ali \n",
+    "PARENTAGE": "Khan Muhammad",
+    "ADDRESS": "I) Village & Police Station Jatli Tehsil, Gujar Khan II) PtoLemaibos 21 Katopetralona Athens, Greece.",
+    "CNIC": "3740117388331",
+    "PHONE NUM": "",
+    "FIR no.": "83/07"
+  },
+  {
+    "NAME": "Malik Asim Iqbal",
+    "PARENTAGE": "Malik Muhammad Azam",
+    "ADDRESS": "House No 53, Street 62, Sector F- 10/3, Islamabad. Ii) House No 546, Street 108, Sector 1-8/4, Islamabad.",
+    "CNIC": "6110172100211",
+    "PHONE NUM": "",
+    "FIR no.": "483/07\n519/07\n567/07"
+  },
+  {
+    "NAME": "Zaheer Abbas Ranjha",
+    "PARENTAGE": "Muhammad Buksh",
+    "ADDRESS": "House No. 490 Street No. 14 Multanpura Tehsil, Bhalwal District Sargodha",
+    "CNIC": "3840102228715",
+    "PHONE NUM": "",
+    "FIR no.": "581/07\n635/07\n637/08\n28/09"
+  },
+  {
+    "NAME": "Muhammad Ilyas\n",
+    "PARENTAGE": "Abdul Aziz",
+    "ADDRESS": "Village Patoian Ps Kot Jamal District Bhimber, Ajk",
+    "CNIC": "NA",
+    "PHONE NUM": "",
+    "FIR no.": "757/07\n807/07\n843/07\n859/08"
+  },
+  {
+    "NAME": "Adnan Habib",
+    "PARENTAGE": "Raja Farzand Ali",
+    "ADDRESS": "Village Kariala Teh Sarai Alamgir District, Gujrat.",
+    "CNIC": "3420363995273",
+    "PHONE NUM": "",
+    "FIR no.": "501/07\n306/08"
+  },
+  {
+    "NAME": "Shakil Ur Rehman s/o r/o",
+    "PARENTAGE": "Muhammad Younas",
+    "ADDRESS": "Village Kariala Teh Sari, Alamgir District Gujrat",
+    "CNIC": "3420312883495",
+    "PHONE NUM": "",
+    "FIR no.": "30/10\n31/10\n68/10"
+  },
+  {
+    "NAME": "Nasir Waheed Kayani\n1.",
+    "PARENTAGE": "Abdul Ghafoor Qayani",
+    "ADDRESS": " House No.B-1- 948-D- 5 Street No 10 Mohalla Islamia High School Muhammady Chock Jhelum; 2. House No.1377 Street No.4 Mohalla Jinnah Abad 2, Karachi Tehsil & District Karachi Junibi",
+    "CNIC": "3730122527475",
+    "PHONE NUM": "",
+    "FIR no.": "169/14\n70/15\n25/16"
+  },
+  {
+    "NAME": "Munir Ahmed",
+    "PARENTAGE": "Raja Lal Hissain",
+    "ADDRESS": "House No.79, Abdullah Street,Street No 10 Raja Town Shakrial Rawalpindi",
+    "CNIC": "3740518794303",
+    "PHONE NUM": "",
+    "FIR no.": "68/15\n30/15"
+  },
+  {
+    "NAME": "Alexander Denial Alias Shakeel",
+    "PARENTAGE": "Rehman Masih",
+    "ADDRESS": "1.H.No.500-D, Mohallah Dheri Hassan Ordinance Road Rawalpindi 2.Munawar Colony Adyala Road Rawalpindi",
+    "CNIC": "3740559652563",
+    "PHONE NUM": "",
+    "FIR no.": "103/16\n14/14\n157/13\n298/10"
+  },
+  {
+    "NAME": "Muhammad Zakar Khan",
+    "PARENTAGE": "Atman Khan",
+    "ADDRESS": "House No. 01, Mohalla Mini Topi P.O Khas Teh. &District Swabi, Kpk",
+    "CNIC": "1620272869073",
+    "PHONE NUM": "",
+    "FIR no.": "98/16\n88/17\n138/17 139/17\n161/17"
+  },
+  {
+    "NAME": "Amir-Ur-Rehman",
+    "PARENTAGE": "Mian Gul Rehman",
+    "ADDRESS": "Dewala Sarhani Teh. Matta Distric Swat, Proprietor Of Bahisht Enterprises Overseas Grace Plaza Commercial MarketRawalpindi.",
+    "CNIC": "1560230428065",
+    "PHONE NUM": "",
+    "FIR no.": "226/16\n227/16\n228/16\n124/17"
+  },
+  {
+    "NAME": "Muhammad Latif Tabasam",
+    "PARENTAGE": "Muhammad Umar",
+    "ADDRESS": "Proprietor Of M. Latif & Co. Office No.4 Midcity Plaza Rawalpindi H.No.3 Gali No.3 Badar Colony, Patoki Qasur",
+    "CNIC": "3510332160797",
+    "PHONE NUM": "",
+    "FIR no.": "88/17\n138/17,\n139/17"
+  },
+  {
+    "NAME": "Shafiq Ahmad",
+    "PARENTAGE": "Roshan Deen",
+    "ADDRESS": "Darot, Teh. Talagang, Distric Chakwal, Temporary Address H.No 11, Street No. 5, Mohala Kareem Abad, New Shakrial, Rawalpindi",
+    "CNIC": "3720314717759",
+    "PHONE NUM": "",
+    "FIR no.": "220/16\n82/17, 84/17\n91/17, 163/17\n194/17"
+  },
+  {
+    "NAME": "Zeeshan Tariq",
+    "PARENTAGE": "Tariq Mehmood",
+    "ADDRESS": " Gali No. College Town Pindi Road Kohat Kpk Attorney Holder, Behashit Enterprises Commercial Market, Rawalpindi",
+    "CNIC": "1430112054729",
+    "PHONE NUM": "",
+    "FIR no.": "226/17, 227/16\n228/16,  44/17\n68/17 124/17\n170/17 190/17\n201/17 206/17"
+  },
+  {
+    "NAME": "Shaikh  Muhammad  Abdullah",
+    "PARENTAGE": "Shaikh Nadeem Hussain",
+    "ADDRESS": "I) Flat No. 15-C, Paradise Palace, Sarwar     Shaheed     Road,     Near Cantonment Board Office, Sadder Karachi.II) House No. A-8 Shah Street, Sarki Road, Quetta",
+    "CNIC": "5440042975765",
+    "PHONE NUM": "",
+    "FIR no.": "200/11\n213/11"
+  },
+  {
+    "NAME": "Shaikh Nadeem Hussain",
+    "PARENTAGE": "Sheikh Ghulam Sarwar",
+    "ADDRESS": "I) Flat No. 15-C, Paradise Palace, Sarwar Shaheed Road, Near Cantonment Board Office, Sadder Karachi. II) House No. A-8 Shah Street, Sarki Road, Quetta",
+    "CNIC": "5440005645121",
+    "PHONE NUM": "",
+    "FIR no.": "200/11\n213/11"
+  },
+  {
+    "NAME": "Muhammad Sharif Shahani",
+    "PARENTAGE": "Qaiser Khan Shahani",
+    "ADDRESS": "Yaroo Batil, Tehsil & District Dera Ghazi Khan",
+    "CNIC": "3210210278235",
+    "PHONE NUM": "",
+    "FIR no.": "409/08\n469/08\n504/08"
+  },
+  {
+    "NAME": "Zubair Ahmed Sheikh",
+    "PARENTAGE": "Muhammad Yousaf",
+    "ADDRESS": "House No. A-402, Shumail Arcade, Gulistan �E- Johar Karachi.",
+    "CNIC": "4200005291351",
+    "PHONE NUM": "",
+    "FIR no.": "110/13"
+  },
+  {
+    "NAME": "Shakeel Ahmed",
+    "PARENTAGE": "Noor Khan",
+    "ADDRESS": " I). R-1190, Block -15, Fb Area Karachi.  II) 15/733, Dastagir Colony Block, 15, Fb Area, Karachi.  III) Office: Consultant: Pacalt Consultant, C-31st  Floor, Farah Centre, University Road Karachi.",
+    "CNIC": "4210131555789",
+    "PHONE NUM": "",
+    "FIR no.": "130/13"
+  },
+  {
+    "NAME": "Muhammad Rafiq",
+    "PARENTAGE": "Fareed",
+    "ADDRESS": "I) Flat No. M-5, Muhalla Mehran Residency Dawood Pota Road, Karachi Cantt.  II) Jaj Randh Sharif, Dakhana Khas Tehsil Khanpur, Distt. Rahim Yar Khan.",
+    "CNIC": "4230110092565",
+    "PHONE NUM": "",
+    "FIR no.": "286/12"
+  },
+  {
+    "NAME": "Sajid Kausar",
+    "PARENTAGE": "Abdul Kausar",
+    "ADDRESS": "House No. C-113, Nazd Baloch Hotel, Mari Pur Village, Muhalla Balavi Karachi.",
+    "CNIC": "4240185755699",
+    "PHONE NUM": "",
+    "FIR no.": "266/13"
+  },
+  {
+    "NAME": "Mubashir Parvez \n",
+    "PARENTAGE": "Parvez Akbar",
+    "ADDRESS": "Muhalla Tainki Wala, Dhonkal Tehsil Wazirabad Distt. Gujranwala",
+    "CNIC": "3410449022027",
+    "PHONE NUM": "",
+    "FIR no.": "259/13"
+  },
+  {
+    "NAME": "Imran Javed",
+    "PARENTAGE": "Javed Iqbal",
+    "ADDRESS": "H No. B-21, Block 13/D, Gulshan- E-Iqbal, Karachi",
+    "CNIC": "4220113577891",
+    "PHONE NUM": "",
+    "FIR no.": "250/12,242/12\n248/12\n288/12"
+  },
+  {
+    "NAME": "Asma Rafique",
+    "PARENTAGE": "Muhammad Raffique Iqbal Bawani",
+    "ADDRESS": "(I) House No. B-76, Gulshan-E- Iqbal, Block 03, Karachi (East) (Ii) H#B-608 Rufi Lake Drive Block 12, Gulistan-E- Johar, Karachi.",
+    "CNIC": "4200023704144",
+    "PHONE NUM": "",
+    "FIR no.": "447/16\n450/16"
+  },
+  {
+    "NAME": "Muhammad Mazhar Iqbal",
+    "PARENTAGE": "Muhammad Sadiq",
+    "ADDRESS": "Flat No. 147- C Block-N, Model Town, Lahore, Ms. Fajar International, Business Consultancy, Immigration And Corporate Finance Services, Situated At 5th Floor, Kawis Crown Plaza, Shahrah-E-Faisal,",
+    "CNIC": "3520229834763",
+    "PHONE NUM": "",
+    "FIR no.": "426/16,\n183/17,\n357/17\n433/17,\n451/17 ,\n477/17"
+  },
+  {
+    "NAME": "Asim Mehmood Malik",
+    "PARENTAGE": "Malik Akhtar Mehmood (UAE/UK)",
+    "ADDRESS": "32-A Judicial Colony Lahore And Berth Sarqi, Miani, Tehsil Bhera District Sargodha",
+    "CNIC": "3520285765631",
+    "PHONE NUM": "",
+    "FIR no.": "681/12\n175\nCASES"
+  },
+  {
+    "NAME": "Zobia Rubab Malik",
+    "PARENTAGE": "Asim Mahmood Malik (P.O/Red Notice) (UAE)",
+    "ADDRESS": "32-A Judicial Colony Lahore And Berth Sarqi, Miani, Tehsil Bhera District Sargodha",
+    "CNIC": "3520252193694",
+    "PHONE NUM": "",
+    "FIR no.": "197/13\n175\nCASES"
+  },
+  {
+    "NAME": "Shafqat Ali",
+    "PARENTAGE": "Said Akram",
+    "ADDRESS": "19-A Ahmad Block New Garden Town, Lahore & P.O Box No. 80566 Dubai (UAE)",
+    "CNIC": "3520245679909",
+    "PHONE NUM": "",
+    "FIR no.": "681/13"
+  },
+  {
+    "NAME": "Mian Rafique Ahmed",
+    "PARENTAGE": "Ghulam Mohyuddin",
+    "ADDRESS": "House No. 12, Street No. 5 Mohallah Riaz Ahmed Road Shalimar Town Lahore.",
+    "CNIC": "3520285357693",
+    "PHONE NUM": "",
+    "FIR no.": "452/15"
+  },
+  {
+    "NAME": "checkkMian Rafique Ahmed",
+    "PARENTAGE": "Ghulam Mohyuddin",
+    "ADDRESS": "House No. 12, Street No. 5 Mohallah Riaz Ahmed Road Shalimar Town Lahore.",
+    "CNIC": "3710247323785",
+    "PHONE NUM": "",
+    "FIR no.": "checkk452/15"
+  }
+]
