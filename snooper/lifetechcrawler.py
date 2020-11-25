@@ -20,7 +20,7 @@ for n in numbers:
       if td.find('b') is None:
         data=(td.text.strip())
         print (data)
-        with open('lifetech_rawdata.json', 'w') as outfile:
+        with open('lifetech_rawdata.json', 'a') as outfile:
             json.dump(data, outfile)
 
   except Exception as err:
