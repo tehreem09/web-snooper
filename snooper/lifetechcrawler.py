@@ -1,19 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-import scrapy
-
-
-class Lifetech_Crawler(scrapy.Spider):
-    name = "Lifetech"
-    custom_settings = {
-            'FEED_URI': 'lifetech_rawdata.json',
-            'FEED_FORMAT': 'json',
-            'FEED_EXPORTERS': {
-                'json': 'scrapy.exporters.JsonItemExporter',
-            },
-            'FEED_EXPORT_ENCODING': 'utf-8',
-        }
 
 
     numbers = ['3422817264', '3424224229']
@@ -32,7 +19,8 @@ class Lifetech_Crawler(scrapy.Spider):
           if td.find('b') is None:
             data=(td.text.strip())
             print (data)
-            yield {'number_data': title}
+            with open('lifetech_rawdata.json', 'w') as outfile:
+                json.dump(data, outfile)
 
       except Exception as err:
         print(err)
