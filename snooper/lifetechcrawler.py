@@ -3,29 +3,29 @@ from bs4 import BeautifulSoup
 
 
 
-    numbers = ['3422817264', '3424224229']
+numbers = ['3422817264', '3424224229']
 
-    success = 0
-    fail = 0
-    #crawler
-    for n in numbers:
+success = 0
+fail = 0
+#crawler
+for n in numbers:
 
-      try:
-        url = 'http://lifetech.tech/?number={}'.format(n)
-        page = requests.get(url)
-        soup = BeautifulSoup(page.content, 'html.parser')
-        for td in soup.findAll("td"):
-          # print (td)
-          if td.find('b') is None:
-            data=(td.text.strip())
-            print (data)
-            with open('lifetech_rawdata.json', 'w') as outfile:
-                json.dump(data, outfile)
+  try:
+    url = 'http://lifetech.tech/?number={}'.format(n)
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+    for td in soup.findAll("td"):
+      # print (td)
+      if td.find('b') is None:
+        data=(td.text.strip())
+        print (data)
+        with open('lifetech_rawdata.json', 'w') as outfile:
+            json.dump(data, outfile)
 
-      except Exception as err:
-        print(err)
-        fail += 1
-        continue
+  except Exception as err:
+    print(err)
+    fail += 1
+    continue
 
 
 
