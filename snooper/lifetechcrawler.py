@@ -17,9 +17,11 @@ class Lifetech_Crawler(scrapy.Spider):
         super().__init__()
 
     def start_requests(self):
+        print("strt request")
         for j in self.numbers:
             try:
                 urls = 'http://lifetech.tech/?number={}'.format(j)
+                print("going to parse")
                 yield scrapy.Request(url=urls, callback=self.parse)
             except Exception as err:
                 print(err)
