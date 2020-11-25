@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 success = 0
 fail = 0
 #crawler
-func Crawl(numbers):
+def Crawl(numbers):
   for n in numbers:
 
     try:
