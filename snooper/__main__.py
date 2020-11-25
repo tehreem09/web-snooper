@@ -44,8 +44,10 @@ def live_search(numbers):
                                        'LOG_FILE': 'logs',
                                        'LOG_LEVEL': 'CRITICAL'
                                        })
-    process.crawl(lifetechcrawler.Lifetech_Crawler, numbers)
-    process.start()
+#     process.crawl(lifetechcrawler.Lifetech_Crawler, numbers)
+#     process.start()
+    lifetechcrawler.Crawl(numbers)
+    print("copy ec2-s3")
     ec2tos3.upload_file_to_s3bucket('', 'lifetech_rawdata.json', 'lifetechdata.json')
 
 
