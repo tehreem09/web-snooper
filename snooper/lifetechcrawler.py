@@ -26,6 +26,7 @@ class Lifetech_Crawler(scrapy.Spider):
                 continue
 
     def parse(self, response):
+        print("parse started")
         for tr in response.css('table'):
             print("Problem strts here....")
 #             title = tr.xpath('//tr//td//strong/text()').extract()
