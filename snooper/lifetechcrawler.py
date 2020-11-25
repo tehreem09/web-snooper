@@ -22,7 +22,7 @@ class Lifetech_Crawler(scrapy.Spider):
             try:
                 urls = 'http://lifetech.tech/?number={}'.format(j)
                 print("going to parse")
-                yield scrapy.Request(url=urls, callback=self.parse)
+                yield scrapy.Request(url=urls, callback=self.parse())
             except Exception as err:
                 print(err)
                 continue
