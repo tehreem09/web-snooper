@@ -2,33 +2,34 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
+num_data={}
+mainlist=[]
+
+for n in numbers:
+  indlist=[]
+
+  try:
+    url = 'http://lifetech.tech/?number={}'.format(n)
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+    for td in soup.findAll("td"):
+      if td.find('b') is None:
+        data=(td.text.strip())
+        indlist.append(data)
+    num_data['number_data']=indlist
+    copy= num_data.copy()
+    mainlist.append(copy)
 
 
-# numbers = ['3422817264', '3424224229']
+  except Exception as err:
+    print(err)
+    continue
 
-success = 0
-fail = 0
-#crawler
-def Crawl(numbers):
-  for n in numbers:
+print(mainlist)
 
-    try:
-      url = 'http://lifetech.tech/?number={}'.format(n)
-      page = requests.get(url)
-      soup = BeautifulSoup(page.content, 'html.parser')
-      for td in soup.findAll("td"):
-        # print (td)
-        if td.find('b') is None:
-          data=(td.text.strip())
-          print (data)
-          with open('lifetech_rawdata.json', 'a') as outfile:
-              json.dump(data, outfile)
-
-    except Exception as err:
-      print(err)
-      fail += 1
-      continue
-    
+with open('lifetech_rawdata.json', 'a') as outfile:
+  json.dump(mainlist, outfile)
 
 
 # import scrapy
@@ -73,28 +74,3 @@ def Crawl(numbers):
 #                 # self.success += 1
 #                 yield {'number_data': title}
 
-
-# # import scrapy
-# #
-# #
-# # class LifetechCrawler(scrapy.Spider):
-# #     name = "Lifetech"
-# #     numbers = ['3216386601', '3408372640']
-# #     custom_settings = {
-# #         'FEED_URI': 'lifetech_rawdata.json',
-# #         'FEED_FORMAT': 'json',
-# #         'FEED_EXPORTERS': {
-# #             'json': 'scrapy.exporters.JsonItemExporter',
-# #         },
-# #         'FEED_EXPORT_ENCODING': 'utf-8',
-# #     }
-# #
-# #     def start_requests(self):
-# #         for i in self.numbers:
-# #             urls = 'http://lifetech.tech/?number={}'.format(i)
-# #             yield scrapy.Request(url=urls, callback=self.parse)
-# #
-# #     def parse(self, response):
-# #         for tr in response.css('table'):
-# #             title = tr.xpath('//tr//td//strong/text()').extract()
-# #             yield {'titlestext': title}
