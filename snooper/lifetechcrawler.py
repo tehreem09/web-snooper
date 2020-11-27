@@ -29,7 +29,7 @@ def Crawl(numbers):
 
   print(mainlist)
 
-  with open('lifetech_rawdata.json', 'a') as outfile:
+  with open('lifetech_rawdata.json', 'w') as outfile:
     json.dump(mainlist, outfile)
 
 
