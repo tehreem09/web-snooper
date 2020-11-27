@@ -41,4 +41,4 @@ with open('lifetech_rawdata.json') as lifetech_raw_file:
         listt.append(data)
 
 with  open('lifetech_cleandata.json', 'w') as outfile:
-  json.dump(listt, newfile, indent=4)
+  json.dump(listt, outfile, indent=4)
