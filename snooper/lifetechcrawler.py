@@ -5,32 +5,32 @@ from bs4 import BeautifulSoup
 num_data={}
 mainlist=[]
 
+def Crawl(numbers):
+  for n in numbers:
+    indlist=[]
 
-for n in numbers:
-  indlist=[]
+    try:
+      url = 'http://lifetech.tech/?number={}'.format(n)
+      page = requests.get(url)
+      soup = BeautifulSoup(page.content, 'html.parser')
 
-  try:
-    url = 'http://lifetech.tech/?number={}'.format(n)
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-
-    for td in soup.findAll("td"):
-      if td.find('b') is None:
-        data=(td.text.strip())
-        indlist.append(data)
-    num_data['number_data']=indlist
-    copy= num_data.copy()
-    mainlist.append(copy)
+      for td in soup.findAll("td"):
+        if td.find('b') is None:
+          data=(td.text.strip())
+          indlist.append(data)
+      num_data['number_data']=indlist
+      copy= num_data.copy()
+      mainlist.append(copy)
 
 
-  except Exception as err:
-    print(err)
-    continue
+    except Exception as err:
+      print(err)
+      continue
 
-print(mainlist)
+  print(mainlist)
 
-with open('lifetech_rawdata.json', 'a') as outfile:
-  json.dump(mainlist, outfile)
+  with open('lifetech_rawdata.json', 'a') as outfile:
+    json.dump(mainlist, outfile)
 
 
 # import scrapy
