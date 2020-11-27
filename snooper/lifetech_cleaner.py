@@ -10,7 +10,7 @@ cities = ['KARACHI', 'Karachi', 'LAHORE', 'Faisalabad', 'SIALKOT,Punjab', 'Gujra
           'ISLAMABAD,Punjab',
           'PAKPATTAN,Punjab']
 
-with open('lifetechdata.json') as lifetech_raw_file:
+with open('lifetech_rawdata.json') as lifetech_raw_file:
     data = json.load(lifetech_raw_file)
     for dictionary in data:
         mainlist.append(dictionary.get('number_data'))
