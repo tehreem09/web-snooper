@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 num_data={}
 mainlist=[]
 
+
 for n in numbers:
   indlist=[]
 
