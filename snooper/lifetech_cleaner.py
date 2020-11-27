@@ -1,7 +1,7 @@
 import json
 import re
 
-newfile = open('lifetech_cleandata.json', 'w')
+# newfile = open('lifetech_cleandata.json', 'w')
 
 mainlist = []
 cities = ['KARACHI', 'Karachi', 'LAHORE', 'Faisalabad', 'SIALKOT,Punjab', 'Gujranwala', 'Gilgit', 'KARACHI,Sindh',
@@ -16,6 +16,7 @@ with open('lifetech_rawdata.json') as lifetech_raw_file:
         mainlist.append(dictionary.get('number_data'))
     listt = []
     for eachlist in mainlist:
+        print(eachlist)
         data = {}
         nameflag = False
         address = False
@@ -39,4 +40,5 @@ with open('lifetech_rawdata.json') as lifetech_raw_file:
                         address = True
         listt.append(data)
 
-json.dump(listt, newfile, indent=4)
+with  open('lifetech_cleandata.json', 'w') as outfile:
+  json.dump(listt, newfile, indent=4)
