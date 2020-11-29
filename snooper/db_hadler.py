@@ -49,7 +49,7 @@ def search_taxpayers_record(cnic):
 
     for records in tax_payers['Sheet1']:
         tax_payers_dictionary = {}
-        if cnic == records['NTN']:
+#         if cnic == records['NTN']:
             tax_payers_dictionary['CNIC'] = cnic
             tax_payers_dictionary['BUSINESS_NAME'] = records['BUSINESS_NAME']
             tax_payers_dictionary['NAME REGISTERED TO'] = records['NAME']
@@ -63,7 +63,8 @@ def search_redbook_record(cnic, number):
 
     for data2 in redbook:
         redbook_dictionary = {}
-        if cnic == (data2['CNIC']):             redbook_dictionary['CNIC'] = cnic
+        if cnic == (data2['CNIC']):             
+#             redbook_dictionary['CNIC'] = cnic
             redbook_dictionary['F/NAME'] = data2['PARENTAGE']
             redbook_dictionary['ADDRESS'] = data2['ADDRESS']
             redbook_dictionary['PHONE NUM'] = data2['PHONE NUM']
@@ -78,7 +79,8 @@ def search_terrorists_record(cnic, number):
 
     for data2 in terrorists:
         terrorists_dictionary = {}
-        if cnic == (data2['CNIC']):             terrorists_dictionary['CNIC'] = cnic
+        if cnic == (data2['CNIC']):            
+#             terrorists_dictionary['CNIC'] = cnic
             terrorists_dictionary['F/NAME'] = data2['FNAME']
             terrorists_dictionary['ADDRESS'] = data2['ADDRESS']
             terrorists_dictionary['REWARD'] = data2['REWARD']
