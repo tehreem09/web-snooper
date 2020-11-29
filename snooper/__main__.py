@@ -5,7 +5,8 @@ import argparse
 from scrapy.crawler import CrawlerProcess
 from . import numberhandler
 from . import lifetechcrawler
-from . import lifetech_cleaner
+# from . import lifetech_cleaner
+from . import db_hadler
 from . import ec2tos3
 
 
@@ -50,7 +51,7 @@ def live_search(numbers):
     lifetechcrawler.Crawl(numbers)
     print("copy ec2-s3")
     ec2tos3.upload_file_to_s3bucket('', 'lifetech_rawdata.json', 'lifetechdata.json')
-    lifetech_cleaner.clean()
+#     lifetech_cleaner.clean()
 
 
 def file_handler(filename):
@@ -73,6 +74,7 @@ def main():
         else:
             number_basic_info(numberswithcode)
             live_search(numberswithoutcode)
+            db_hadler.search_records()
     elif arg_values.filename:
         numberswithcode, numberswithoutcode = file_handler(arg_values.filename)
         if db_check(numberswithcode):
@@ -80,6 +82,7 @@ def main():
         else:
             number_basic_info(numberswithcode)
             live_search(numberswithoutcode)
+            db_hadler.search_records()
 
 
 if __name__ == '__main__':
