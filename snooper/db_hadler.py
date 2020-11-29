@@ -49,8 +49,8 @@ def search_taxpayers_record(cnic):
 
     for records in tax_payers['Sheet1']:
         tax_payers_dictionary = {}
-#         if cnic == records['NTN']:
-            tax_payers_dictionary['CNIC'] = cnic
+        if cnic == records['NTN']:
+#             tax_payers_dictionary['CNIC'] = cnic
             tax_payers_dictionary['BUSINESS_NAME'] = records['BUSINESS_NAME']
             tax_payers_dictionary['NAME REGISTERED TO'] = records['NAME']
 
