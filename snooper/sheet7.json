@@ -1,0 +1,28 @@
+{
+    "Sheet1": [
+        {
+            "SR_NO": "2400001",
+            "NTN": "4410347589977",
+            "NAME": "BAWANI SHANKAR",
+            "BUSINESS_NAME": ""
+        },
+        {
+            "SR_NO": "2400002",
+            "NTN": "4410347608780",
+            "NAME": "NASREEN AKHTAR",
+            "BUSINESS_NAME": ""
+        },
+        {
+            "SR_NO": "2764398",
+            "NTN": "8120218615413",
+            "NAME": "TAHIR MUSHTAQ",
+            "BUSINESS_NAME": ""
+        },
+        {
+            "SR_NO": "2764398",
+            "NTN": "4220135951069",
+            "NAME": "CHECKKTAHIR MUSHTAQ",
+            "BUSINESS_NAME": "CHECKK"
+        }
+    ]
+}
