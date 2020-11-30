@@ -3,6 +3,7 @@ import re
 
 # newfile = open('lifetech_cleandata.json', 'w')
 def clean():
+    print("starting cleaning")
     mainlist = []
     cities = ['KARACHI', 'Karachi', 'LAHORE', 'Faisalabad', 'SIALKOT,Punjab', 'Gujranwala', 'Gilgit', 'KARACHI,Sindh',
               'CHITRAL',
