@@ -32,7 +32,7 @@ def crawl(numbers):
   print(mainlist)
 
   with open('lifetech_rawdata.json', 'w') as outfile:
-    json.dump(mainlist, outfile)
+    json.dump(mainlist, outfile, indent = 4)
     lifetech_cleaner.clean()
 
 
