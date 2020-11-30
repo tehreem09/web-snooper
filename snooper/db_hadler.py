@@ -116,7 +116,7 @@ def main_dbt_handler(number, record):
         print('[-] No criminal record found....\n[-] No business or tax payers record fount....\n')
 
 
-search_records()
+# search_records()
 
 
 
