@@ -68,7 +68,7 @@ def merge_found_records(*dicts):
 
 
 def search_taxpayers_record(cnic):
-    with open('sheet7.json', 'r') as tax_payers:
+    with open('snooper/sheet7.json', 'r') as tax_payers:
         tax_payers = json.load(tax_payers)
 
     for records in tax_payers['Sheet1']:
@@ -82,7 +82,7 @@ def search_taxpayers_record(cnic):
 
 
 def search_redbook_record(cnic, number):
-    with open('redbook.json', 'r') as redbook:
+    with open('snooper/redbook.json', 'r') as redbook:
         redbook = json.load(redbook)
 
     for data2 in redbook:
@@ -98,7 +98,7 @@ def search_redbook_record(cnic, number):
 
 
 def search_terrorists_record(cnic, number):
-    with open('data.json', 'r') as terrorists:
+    with open('snooper/data.json', 'r') as terrorists:
         terrorists = json.load(terrorists)
 
     for data2 in terrorists:
