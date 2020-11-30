@@ -36,6 +36,7 @@ def number_basic_info(numbers):
     number_basic_data_dict = obj.get_number_origin_data()
     with open('basic_number_info.json', 'w') as fp:
         json.dump(number_basic_data_dict, fp, indent=4)
+        print("write data in basic info")
     fp.close()
     ec2tos3.upload_file_to_s3bucket('', 'basic_number_info.json', 'number_basic_info.json')
 
