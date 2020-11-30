@@ -39,6 +39,7 @@ def clean():
                             data['address'] = value
                             address = True
             listt.append(data)
+            print (listt)
 
     with open('lifetech_cleandata.json', 'w') as outfile:
       json.dump(listt, outfile)
