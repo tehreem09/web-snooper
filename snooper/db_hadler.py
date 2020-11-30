@@ -46,7 +46,7 @@ def search_records():
         main_dbt_handler(number, result)
 
 def basic_info_merger(dict):
-    with open ('number_basic_info.json', 'r') as basic_num_info:
+    with open ('basic_number_info.json', 'r') as basic_num_info:
         num_info = json.load(basic_num_info)
     for data in num_info:
         # print(data)
