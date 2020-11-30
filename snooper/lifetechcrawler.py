@@ -7,7 +7,7 @@ from . import lifetech_cleaner
 num_data={}
 mainlist=[]
 
-def Crawl(numbers):
+def crawl(numbers):
   for n in numbers:
     indlist=[]
 
