@@ -48,7 +48,7 @@ def live_search(numbers):
                                        })
 #     process.crawl(lifetechcrawler.Lifetech_Crawler, numbers)
 #     process.start()
-    lifetechcrawler.Crawl(numbers)
+    lifetechcrawler.crawl(numbers)
     print("copy ec2-s3")
     ec2tos3.upload_file_to_s3bucket('', 'lifetech_rawdata.json', 'lifetechdata.json')
 #     lifetech_cleaner.clean()
