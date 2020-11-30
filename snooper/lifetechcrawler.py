@@ -2,7 +2,7 @@ import requests
 import json
 from bs4 import BeautifulSoup
 
-from . import lifetech_cleaner
+# from . import lifetech_cleaner
 
 num_data={}
 mainlist=[]
@@ -33,7 +33,7 @@ def crawl(numbers):
 
   with open('lifetech_rawdata.json', 'w') as outfile:
     json.dump(mainlist, outfile, indent = 4)
-    lifetech_cleaner.clean()
+#     lifetech_cleaner.clean()
 
 
 # import scrapy
