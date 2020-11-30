@@ -11,7 +11,7 @@ def search_records():
         cnic = record.get("cnic")
 
         my_dic=record
-        my_dic= basic_info_merger(my_dic)
+#         my_dic= basic_info_merger(my_dic)
 
 
         result01 = search_taxpayers_record(cnic)
