@@ -42,7 +42,7 @@ def clean():
             print (listt)
 
     with open('lifetech_cleandata.json', 'w') as outfile:
-      json.dump(listt, outfile)
+      json.dump(listt, outfile, indent=4)
 
 # import json
 # import re
