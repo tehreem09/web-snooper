@@ -1,4 +1,4 @@
 requests==2.23.0
-scrapy==2.1.0
+scrapy==2.6.2
 phonenumbers==8.12.4
 boto3==1.14.38
